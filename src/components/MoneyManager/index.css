@@ -1,0 +1,69 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 40px;
+}
+.index-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-container {
+  display: flex;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.card-img {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header-list-item {
+  display: flex;
+  border: 1px #7e858e solid;
+}
+
+.header-text {
+  font-family: Roboto;
+  font-weight: bold;
+  margin: 25px;
+  margin-right: 20px;
+}
+.transaction-history-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history-list-container {
+  border: 1px #7e858e solid;
+  padding: 20px;
+  border-radius: 15px;
+}
+.type-dropdown {
+  outline: none;
+  height: 35px;
+  width: 100%;
+}
+.btn {
+  margin-top: 10px;
+}
